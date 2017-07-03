@@ -1,0 +1,17 @@
+{
+  "name": "mergelots",
+  "version": "1.0.0",
+  "description": "ShapeFile MapPluto (From Khila) : 0216UpdatedLayerForModeling",
+  "main": "cell.js",
+  "scripts": {
+    "start": "node init.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "mongodb": "^2.2.24",
+    "prompt": "^1.0.0",
+    "turf": "^3.0.14"
+  }
+}

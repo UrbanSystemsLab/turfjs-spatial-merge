@@ -1,0 +1,19 @@
+{
+	"mongoUrl": "mongodb://localhost:27017/nycdb",
+	"databaseName": "nycdb",
+	"innerLayerCollection": "buildings",
+	"outerLayerCollection": "lots",
+	"cityBoundaryCollection": "cityBoundary",
+	"squareGridCollection": "squareGrid",
+	"triangleGridCollection": "triangleGrid",
+	"spatialMergeAttributes": [
+		"BBL",
+		"borough",
+		"heat_risk",
+		"coast_fld",
+		"tot_pop",
+		"pop_den",
+		"med_inc",
+		"pop_ov65"
+	]
+}
